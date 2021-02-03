@@ -9,7 +9,7 @@ export default class Selection extends Component {
   }
   updateColor=(value)=>{
       this.setState({
-          background:value,
+          background:value.background,
       })
 
   }
