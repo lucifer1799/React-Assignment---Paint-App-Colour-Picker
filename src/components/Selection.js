@@ -20,7 +20,7 @@ export default class Selection extends Component {
         style={{ background: this.state.background }}
         onClick={() => this.props.applyColo(updateColor)}
       >
-        <h2>Selection</h2>
+        <h2 className="subheading">Selection</h2>
       </div>
     );
   }
