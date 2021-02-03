@@ -18,7 +18,7 @@ export default class Selection extends Component {
       <div
         className="fix-box"
         style={{ background: this.state.background }}
-        onClick={() => this.props.applyColor(updateColor)}
+        onClick={() => this.props.applyColor(this.updateColor)}
       >
         <h2 className="subheading">Selection</h2>
       </div>
